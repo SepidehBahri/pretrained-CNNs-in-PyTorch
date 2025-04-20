@@ -97,8 +97,3 @@ output_dir: outputs/
 - ✅ Add test-time augmentation (TTA)
 - ✅ Export to ONNX or TorchScript
 
----
-
-## 📄 License
-
-MIT License. Use freely with attribution.
