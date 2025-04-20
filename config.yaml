@@ -1,0 +1,21 @@
+# General
+seed: 42
+num_classes: 2
+image_type: sswt
+output_dir: outputs/
+
+# Model
+model: densenet201
+image_size: [224, 224]
+
+# Data
+dataset_path: /path/to/your/dataset/train  # 🔁 Change this
+batch_size: 32
+
+# Transforms
+horizontal_flip: false
+rotation: 0
+
+# Training
+learning_rate: 0.004
+num_epochs: 10
