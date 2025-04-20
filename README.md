@@ -30,7 +30,7 @@ pytorch-pretrained-CNN/
 
 ## 📥 Downloadable Sample Dataset
 
-> ⚠️ Replace this with your actual data or download script  
+> ⚠️ Replace this with your actual data  
 Example (2-class folder structure):
 
 ```
