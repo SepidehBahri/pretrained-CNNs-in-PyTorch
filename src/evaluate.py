@@ -28,8 +28,8 @@ def evaluate_model(model, dataloader, class_names, device, save_path=None):
     cm = confusion_matrix(y_true, y_pred)
     cm_norm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis] * 100
 
-    print(f"\n✅ Accuracy: {acc * 100:.2f}%")
-    print("\n📋 Classification Report:")
+    print(f"\n Accuracy: {acc * 100:.2f}%")
+    print("\n Classification Report:")
     print(report)
 
     # --- Confusion matrix plot ---
@@ -44,7 +44,7 @@ def evaluate_model(model, dataloader, class_names, device, save_path=None):
         plt.title("Confusion Matrix (%)")
         plt.tight_layout()
         plt.savefig(save_path)
-        print(f"📊 Confusion matrix saved to: {save_path}")
+        print(f" Confusion matrix saved to: {save_path}")
         plt.close()
 
     return acc, cm, report
