@@ -9,7 +9,7 @@ model: densenet201
 image_size: [224, 224]
 
 # Data
-dataset_path: /path/to/your/dataset/train  # 🔁 Change this
+dataset_path: /path/to/your/dataset/train  # Change this
 batch_size: 32
 
 # Transforms
