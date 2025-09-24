@@ -70,7 +70,7 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, device, n
                 torch.save(model, full_model_path)
             if weights_path:
                 torch.save(model.state_dict(), weights_path)
-            print(f"Epoch {epoch+1}: 🔥 New best val_acc = {val_acc:.2f}%, model saved.")
+            print(f"Epoch {epoch+1}:  New best val_acc = {val_acc:.2f}%, model saved.")
 
         print(f"[{epoch+1}/{num_epochs}] "
               f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}% | "
