@@ -4,13 +4,13 @@ Train image classifiers using PyTorch and pretrained CNN models (ResNet, DenseNe
 
 ---
 
-## 📦 Features
+## Features
 
-- ✅ Supports pretrained models via `torchvision`
-- 🔄 Configurable data augmentations (rotation, flipping)
-- 📊 Confusion matrix + classification report
-- 🔍 Simple YAML-based config system
-- 🧠 Built for image classification tasks
+- Supports pretrained models via `torchvision`
+- Configurable data augmentations (rotation, flipping)
+- Confusion matrix + classification report
+- Simple YAML-based config system
+- Built for image classification tasks
 
 ---
 
@@ -28,9 +28,9 @@ pytorch-pretrained-CNN/
 
 ---
 
-## 📥 Downloadable Sample Dataset
+## Downloadable Sample Dataset
 
-> ⚠️ Replace this with your actual data  
+> Replace this with your actual data  
 Example (2-class folder structure):
 
 ```
@@ -48,7 +48,7 @@ Example (2-class folder structure):
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Clone the repo
@@ -66,7 +66,7 @@ python train.py --config config.yaml
 
 ---
 
-## 🧠 Example Config (`config.yaml`)
+## Example Config (`config.yaml`)
 ```yaml
 model: densenet201
 batch_size: 32
@@ -82,7 +82,7 @@ output_dir: outputs/
 
 ---
 
-## 📈 Output Example
+## Output Example
 
 - `outputs/model_name/model.pth` — full model
 - `outputs/model_name/logs.json` — training logs
@@ -90,10 +90,10 @@ output_dir: outputs/
 
 ---
 
-## 🧠 Future Ideas
+## Future Ideas
 
-- ✅ Add support for `timm` models
-- ✅ Add learning rate scheduler
-- ✅ Add test-time augmentation (TTA)
-- ✅ Export to ONNX or TorchScript
+-  Add support for `timm` models
+-  Add learning rate scheduler
+-  Add test-time augmentation (TTA)
+-  Export to ONNX or TorchScript
 
